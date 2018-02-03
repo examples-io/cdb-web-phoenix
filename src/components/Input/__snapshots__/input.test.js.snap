@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input tests renders default Input correctly 1`] = `
+<div
+  className="form__input "
+>
+  <label
+    className="label"
+    htmlFor="textInput"
+  >
+    Text label
+  </label>
+  <input
+    className="input input--text"
+    id="textInput"
+    onChange={undefined}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Input tests renders default Input error correctly 1`] = `
+<div
+  className="form__input  form__input--error"
+>
+  <label
+    className="label label--error"
+    htmlFor="defaultError"
+  >
+    Default error
+  </label>
+  <input
+    className="input input--text input--error"
+    id="defaultError"
+    onChange={[Function]}
+    placeholder={undefined}
+    type="text"
+    value=""
+  />
+  <div
+    className="error"
+  >
+     
+    Default error message
+     
+  </div>
+</div>
+`;
+
+exports[`Input tests renders default Input with custom class correctly 1`] = `
+<div
+  className="form__input test-class"
+>
+  <label
+    className="label"
+    htmlFor="customClass"
+  >
+    Custom Class
+  </label>
+  <input
+    className="input input--text"
+    id="customClass"
+    onChange={[Function]}
+    placeholder={undefined}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Input tests renders password Input correctly 1`] = `
+<div
+  className="input-w-aux "
+>
+  <span
+    className="input-w-aux__icon icon--privacy"
+  />
+  <input
+    className="input-w-aux__input input input--text"
+    id="loginPassword"
+    onChange={[Function]}
+    type="password"
+    value=""
+  />
+  <label
+    className="input-w-aux__label"
+    htmlFor="loginPassword"
+  >
+     
+    Password
+     
+  </label>
+</div>
+`;
+
+exports[`Input tests renders user Input correctly 1`] = `
+<div
+  className="input-w-aux "
+>
+  <span
+    className="icon--user input-w-aux__icon"
+  />
+  <input
+    className="input-w-aux__input input input--text"
+    id="username"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="input-w-aux__label"
+    htmlFor="username"
+  >
+     
+    Username or card number
+     
+  </label>
+</div>
+`;
