@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image tests renders Image correctly 1`] = `
+<img
+  alt="Scotiabank logo"
+  className={undefined}
+  id="scotiabankLogo"
+  src=""
+/>
+`;
