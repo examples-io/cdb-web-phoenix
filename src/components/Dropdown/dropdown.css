@@ -1,0 +1,4 @@
+select.input--select {
+    min-width: 7rem;
+    border-bottom: none;
+}
