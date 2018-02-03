@@ -9,7 +9,7 @@ import reducers from './demo/Reducer'
  */
 Phoenix (
     <div>
-      <Route exact path='/' component={Demo} />
+        <Route exact path='/' component={Demo} />
     </div>
     , reducers
 );
