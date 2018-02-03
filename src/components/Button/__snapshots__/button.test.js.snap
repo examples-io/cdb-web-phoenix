@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button tests renders continue button correctly 1`] = `
+<button
+  className="button button--continue block block--centered "
+  id={undefined}
+  onClick={undefined}
+>
+  <span
+    className="button__text"
+  >
+     
+     Continue 
+     
+  </span>
+  <span
+    className="button__icon icon icon--continue"
+  />
+</button>
+`;
+
+exports[`Button tests renders default button correctly 1`] = `
+<button
+  className="button button--primary "
+  id={undefined}
+  onClick={undefined}
+>
+   Default 
+</button>
+`;
+
+exports[`Button tests renders default button with custom class 1`] = `
+<button
+  className="button button--primary test-class"
+  id={undefined}
+  onClick={undefined}
+>
+   Continue 
+</button>
+`;
