@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card tests renders Card with custom class correctly 1`] = `
+<div
+  className="card test-class"
+  id="testCardWithCustomClass"
+>
+  <div
+    className="card-right"
+  >
+     Test card with image 
+  </div>
+</div>
+`;
+
+exports[`Card tests renders Card with image correctly 1`] = `
+<div
+  className="card "
+  id="testCardWithImage"
+>
+  <div
+    className="card-left"
+  >
+    <img
+      alt="test card"
+      className={undefined}
+      id={undefined}
+      src="/test.png"
+    />
+  </div>
+  <div
+    className="card-right"
+  >
+     Test card with image 
+  </div>
+</div>
+`;
+
+exports[`Card tests renders Card without image correctly 1`] = `
+<div
+  className="card "
+  id="testCard"
+>
+  <div
+    className="card-right"
+  >
+     Test card 
+  </div>
+</div>
+`;

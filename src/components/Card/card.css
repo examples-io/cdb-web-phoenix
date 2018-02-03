@@ -1,0 +1,12 @@
+.card {
+    display: grid;
+}
+
+.card .card-left {
+    grid-column: 1 / span 1;
+    margin-right: 2rem;
+}
+
+.card .card-right {
+    grid-column: 2 / span 1;
+}
