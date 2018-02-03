@@ -7,23 +7,23 @@ import configureStore from '../../utilities/configureStore'
 import registerServiceWorker from '../../utilities/registerServiceWorker'
 
 function Phoenix(routes, reducers) {
-  const store = configureStore(reducers);
+    const store = configureStore(reducers);
 
-  const routeComponents = (
-      <div>{routes}</div>
-  );
+    const routeComponents = (
+        <div>{routes}</div>
+    );
 
-  ReactDOM.render(
-      <Provider store={store}>
-        <div>
-          <Router>
-            {routeComponents}
-          </Router>
-        </div>
-      </Provider>
-      , document.getElementById('root')
-  );
-  registerServiceWorker();
+    ReactDOM.render(
+        <Provider store={store}>
+            <div>
+                <Router>
+                    {routeComponents}
+                </Router>
+            </div>
+        </Provider>
+        , document.getElementById('root')
+    );
+    registerServiceWorker();
 }
 
 export default Phoenix;
