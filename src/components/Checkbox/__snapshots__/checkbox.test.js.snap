@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox tests renders Checkbox correctly 1`] = `
+<label
+  className="form__input form__input--inline form__input--checkbox "
+  htmlFor="testCheckbox"
+>
+  <input
+    checked={false}
+    className="input input--checkbox"
+    disabled={false}
+    id="testCheckbox"
+    onChange={undefined}
+    type="checkbox"
+    value=""
+  />
+  <span
+    className="checkbox"
+  />
+  <div
+    className="label label--inline label--checkbox"
+  >
+    Test Checkbox
+  </div>
+</label>
+`;
+
+exports[`Checkbox tests renders Checkbox error correctly 1`] = `
+<label
+  className="form__input form__input--inline form__input--checkbox "
+  htmlFor="errorCheckbox"
+>
+  <input
+    checked={false}
+    className="input input--checkbox input--error"
+    disabled={false}
+    id="errorCheckbox"
+    onChange={undefined}
+    type="checkbox"
+    value=""
+  />
+  <span
+    className="checkbox"
+  />
+  <div
+    className="label label--inline label--checkbox label--error"
+  >
+    Error Checkbox
+  </div>
+</label>
+`;
+
+exports[`Checkbox tests renders Checkbox with custom class correctly 1`] = `
+<label
+  className="form__input form__input--inline form__input--checkbox test-class"
+  htmlFor="customClassCheckbox"
+>
+  <input
+    checked={false}
+    className="input input--checkbox"
+    disabled={false}
+    id="customClassCheckbox"
+    onChange={undefined}
+    type="checkbox"
+    value=""
+  />
+  <span
+    className="checkbox"
+  />
+  <div
+    className="label label--inline label--checkbox"
+  >
+    Custom Class Checkbox
+  </div>
+</label>
+`;
+
+exports[`Checkbox tests renders a pre-selected Checkbox correctly 1`] = `
+<label
+  className="form__input form__input--inline form__input--checkbox test-class"
+  htmlFor="customClassCheckbox"
+>
+  <input
+    checked="checked"
+    className="input input--checkbox"
+    disabled={false}
+    id="customClassCheckbox"
+    onChange={undefined}
+    type="checkbox"
+    value={true}
+  />
+  <span
+    className="checkbox"
+  />
+  <div
+    className="label label--inline label--checkbox"
+  >
+    Custom Class Checkbox
+  </div>
+</label>
+`;
+
+exports[`Checkbox tests renders disabled Checkbox correctly 1`] = `
+<label
+  className="form__input form__input--inline form__input--checkbox "
+  htmlFor="disabledCheckbox"
+>
+  <input
+    checked={false}
+    className="input input--checkbox"
+    disabled={true}
+    id="disabledCheckbox"
+    onChange={undefined}
+    type="checkbox"
+    value=""
+  />
+  <span
+    className="checkbox"
+  />
+  <div
+    className="label label--inline label--checkbox"
+  >
+    Disabled Checkbox
+  </div>
+</label>
+`;
