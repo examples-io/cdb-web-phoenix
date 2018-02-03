@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header tests renders Header correctly 1`] = `
+<div
+  className="app-bar"
+>
+  <div
+    className="app-bar-left"
+  >
+    <img
+      alt="Scotiabank"
+      className={undefined}
+      id="scotiabankLogo"
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="app-bar-right"
+  >
+    <div
+      className="form--input"
+    >
+      <label
+        className="label"
+        htmlFor="languagePicker"
+      >
+         
+         
+      </label>
+      <select
+        className="input--select"
+        id="languagePicker"
+        name="language"
+        onChange={[Function]}
+        value="en"
+      >
+        <option
+          value="en"
+        >
+           
+          EN
+           
+        </option>
+        <option
+          value="fr"
+        >
+           
+          FR
+           
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
