@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar tests renders Header correctly 1`] = `
+<div
+  className="app-bar"
+>
+  <div
+    className="app-bar-left"
+  >
+    left logo here
+  </div>
+  <h1>
+     
+     Test Header 
+     
+  </h1>
+  <div
+    className="app-bar-right"
+  >
+    right logo here
+  </div>
+</div>
+`;

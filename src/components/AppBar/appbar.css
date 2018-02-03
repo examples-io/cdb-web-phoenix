@@ -1,0 +1,29 @@
+@media screen and (min-width: 0px) {
+    .app-bar {
+        border-top: 4px solid #ed0722;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        min-height: 11rem;
+    }
+
+    .app-bar-left {
+        position: relative;
+        float: left;
+        margin: 3.6rem;
+    }
+
+    .app-bar-right {
+        position: relative;
+        float: right;
+        margin: 3.6rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
